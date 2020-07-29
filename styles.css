@@ -5,6 +5,8 @@
 	user-select: none;
 }
 
+
+
 .fondo {
 	width: 80%;
 	height: 400px;
@@ -25,14 +27,33 @@
 	border-bottom: 10px solid rgb(0,0,0,0)
 }
 
-.texto.btn {
+
+.respuestas {
 	display: flex;
-	font-size: 30px;
-	margin-left: 12px;
-	margin-top: 4px;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
 }
 
-.forma0 {
+.texto.btn1 {
+	display: flex;
+	margin-top: 0.5em;
+	font-size: 20px;
+
+}
+
+
+.texto.btn2 {
+	display: flex;
+	margin-top: 0.5em;
+	font-size: 20px;
+
+}
+
+.forma11 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #17A154;
 	width: 40px;
 	height: 40px;
@@ -42,7 +63,7 @@
 				-2px -4px 4px 2px rgb(240,240,240,0.15);
 }
 
-.forma2 {
+.forma12 {
 	transition: 400ms;
 	width: 200px;
 	height: 200px;
@@ -60,7 +81,7 @@
 }
 
 
-.forma3 {
+.forma13 {
 	transition: 400ms;
 	background-color: #17A154;
 	width: 40px;
@@ -75,8 +96,60 @@
 	overflow: hidden;
 }
 
-.guido {
+.guido1 {
 	height: 120%;
 	display: none;
 }
 
+
+.guido2 {
+	height: 120%;
+	display: none;
+}
+
+
+.forma21 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #17A154;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 0px solid rgb(0,0,0,0);
+	box-shadow: 2px 4px 4px 2px rgb(0,0,0,0.2),
+				-2px -4px 4px 2px rgb(240,240,240,0.15);
+}
+
+.forma22 {
+	transition: 400ms;
+	width: 200px;
+	height: 200px;
+	background-color: #17A154;
+	border-radius: 50%;
+	border: 4px solid rgb(0,0,0,0);
+	box-shadow: 2px 4px 4px 2px rgb(0,0,0,0.2),
+				-2px -4px 4px 2px rgb(240,240,240,0.15),
+				inSet 4px 4px 4px 2px rgb(0,0,0,0.2),
+				inSet -4px -4px 4px 2px rgb(240,240,240,0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+
+.forma23 {
+	transition: 400ms;
+	background-color: #17A154;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 0px solid rgb(0,0,0,0);
+	box-shadow: 2px 4px 4px 2px rgb(0,0,0,0.2),
+				-2px -4px 4px 2px rgb(240,240,240,0.15);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
